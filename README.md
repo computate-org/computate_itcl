@@ -1,18 +1,18 @@
 
-# Install the bzflag ansible role
+# Install the itcl ansible role
 
 ```bash
 # Create a directory for the ansible role. 
-install -d ~/.ansible/roles/computate.computate_bzflag
+install -d ~/.ansible/roles/computate.computate_itcl
 
-# Clone the bzflag ansible role. 
-git clone git@github.com:computate-org/computate_bzflag.git ~/.ansible/roles/computate.computate_bzflag
-cd ~/.ansible/roles/computate.computate_bzflag
+# Clone the itcl ansible role. 
+git clone git@github.com:computate-org/computate_itcl.git ~/.ansible/roles/computate.computate_itcl
+cd ~/.ansible/roles/computate.computate_itcl
 ```
 
-# Run the bzflag ansible playbook to install bzflag locally (requires sudo privileges with -K). 
+# Run the bzflag ansible playbook to install itcl locally. 
 
 ```bash
-ansible-playbook -K install.yml
+ansible-playbook install.yml
 ```
 
