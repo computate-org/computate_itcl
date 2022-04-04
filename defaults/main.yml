@@ -5,6 +5,7 @@ APP_DEPENDENCIES_REDHAT:
   - tk
   - tcl-devel
   - tk-devel
+  - make
 APP_DEPENDENCIES: "{{ APP_DEPENDENCIES_REDHAT if ansible_distribution_file_variety == 'RedHat' else APP_DEPENDENCIES_REDHAT }}"
 APP_NAME: itcl
 APP_PREFIX: "{{ lookup('env', 'HOME') }}/.local"
