@@ -7,12 +7,11 @@ install -d ~/.ansible/roles/computate.computate_itcl
 
 # Clone the itcl ansible role. 
 git clone git@github.com:computate-org/computate_itcl.git ~/.ansible/roles/computate.computate_itcl
-cd ~/.ansible/roles/computate.computate_itcl
 ```
 
 # Run the itcl ansible playbook to install itcl locally. 
 
 ```bash
-ansible-playbook install.yml
+ansible-playbook ~/.ansible/roles/computate.computate_itcl/install.yml
 ```
 
