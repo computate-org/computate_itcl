@@ -10,7 +10,7 @@ git clone git@github.com:computate-org/computate_itcl.git ~/.ansible/roles/compu
 cd ~/.ansible/roles/computate.computate_itcl
 ```
 
-# Run the bzflag ansible playbook to install itcl locally. 
+# Run the itcl ansible playbook to install itcl locally. 
 
 ```bash
 ansible-playbook install.yml
